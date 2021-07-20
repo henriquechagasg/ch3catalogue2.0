@@ -1,0 +1,61 @@
+.container {
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    .arrowDown {
+        padding-top: 0.5rem;
+        margin-left: 0.2rem;
+    }
+
+    .dropdown {
+        position: absolute;
+        left: -10rem;
+        top: 3rem;
+        min-width: 30rem;
+        background-color: rgba(66, 66, 66, 0.99);
+        border-radius: 5px;
+        padding: 1rem;
+        
+        &:last-child {
+            border-bottom: none;
+        }
+
+        .category {
+            height: 2.5rem;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid white;
+            font-size: 1.3rem;
+
+            &:hover {
+                background-color: rgba(99, 99, 99, 0.99);
+            }
+        }
+
+        .closeIcon {
+            position: absolute;
+            color: white;
+            top: 5px;
+            right: 3px
+        }
+    }
+}
+
+@media screen and (max-width: 500px){
+    .container {
+         .dropdown{
+            left: -2rem;
+            min-width: 15rem;
+            max-height: 85vh;
+            overflow: scroll;
+
+            .category {
+                height: 2.4rem;
+                font-size: medium;
+            }
+         }
+    }
+}

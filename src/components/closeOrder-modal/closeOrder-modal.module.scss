@@ -1,0 +1,94 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 11;
+
+    .modal {
+        width: 45rem;
+        height: 35rem;
+        background: #C8ADA5;
+        border-radius: 0.5rem;
+        padding: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 2rem;
+        font-weight: 400;
+        color: white;
+        position: relative;
+
+        input {
+            background: none;
+            border: none;
+            border-bottom: 3px solid rgba(136, 111, 109, 0.9);
+            font-size: 2rem;
+            outline: none;
+            color: white;
+            transition: padding-bottom 0.2s;
+            
+            &::placeholder {
+                color: rgba(255, 255, 255, 0.7);
+            }
+
+            &:focus{
+                padding-bottom: 0.5rem;
+            }
+        }
+
+        button {
+            font-size: 1.5rem;
+            padding: 0.5rem 1rem;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            background-color: rgba(136, 111, 109, 0.9);
+            border-radius: 0.5rem;
+            cursor: pointer;
+            color: white;
+            transition: transform 0.2s;
+
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+
+        .closeIcon {
+            color: white;
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        .modal {
+            width: 24rem;
+            height: 23rem;
+            padding: 1rem 1rem;
+            font-size: 1.5rem;
+
+            input {
+                font-size: 1.3rem;
+            }
+
+            button {
+                font-size: 1.2rem;
+            }
+
+            .closeIcon {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.container {
+    height: 3rem;
+    width: 2rem;
+    margin-left: 0.3rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    .cartIcon {
+        font-size: 3rem;
+    }
+
+    .counter {
+        top: 2px;
+        right: -10px;
+        position: absolute;
+        height: 21px;
+        width: 21px;
+        border-radius: 50%;
+        background-color: #E8D5D3;
+        font-size: 0.9rem;
+        z-index: 13;
+        display: flex;    
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: black;
+    }
+}

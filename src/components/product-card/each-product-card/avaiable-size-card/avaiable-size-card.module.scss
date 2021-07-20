@@ -1,0 +1,22 @@
+.container {
+    width: 40px;
+    height: 45px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 10px;
+    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 1px 3px 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & .quantity {
+        font-size: 1em;
+        border-bottom: 1px solid black;
+    }
+
+    & .size {
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+}
