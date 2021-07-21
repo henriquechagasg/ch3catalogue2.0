@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ch3 Catalogue
+✅ Typescript
+<br />
+✅ Node.js
+<br />
+✅ React
+<br />
+✅ MongoDB
+<br />
+✅ Next.js
 
-## Getting Started
+## About
 
-First, run the development server:
+An online store developed for the company CH3 LTDA.
+<br />
+The avaiable products in the store keeps up with the avaiable stock from the company's software, makign client ordering process much easier.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Server Side Rendering
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I used Next.js to create static page, which drastically improved loading speed.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<img 
+     src="https://res.cloudinary.com/myuploads/image/upload/v1626356202/Portfolio/gifs/ch3catalogue/serverside_1_bsss2h.gif"
+     style="width:85%; @media-screen and (max-width:700px){ width: 100% }"
+/>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Real Time Stock
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+The application is connected with the company database, so the quantity of products avaiable updates automatically, even if a sale takes place in the physical store.
 
-## Learn More
+<img 
+     src="https://res.cloudinary.com/myuploads/image/upload/v1626356202/Portfolio/gifs/ch3catalogue/serverside_1_bsss2h.gif"
+     style="width:85%; @media-screen and (max-width:700px){ width: 100% }"
+/>
 
-To learn more about Next.js, take a look at the following resources:
+### Adding products to cart
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img 
+     src="https://res.cloudinary.com/myuploads/image/upload/v1626356203/Portfolio/gifs/ch3catalogue/addtocart_pu9w7r.gif"
+     style="width:85%; @media-screen and (max-width:700px){ width: 100% }"
+/>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Sending order
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img 
+     src="https://res.cloudinary.com/myuploads/image/upload/v1626356202/Portfolio/gifs/ch3catalogue/sendorder_1_rmf8o6.gif"
+     style="width:85%; @media-screen and (max-width:700px){ width: 100% }"
+/>
